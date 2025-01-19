@@ -28,6 +28,7 @@ hidemeta: false # 是否隐藏文章的元信息，如发布日期、作者等
 disableShare: true # 底部不显示分享栏
 searchHidden: false # 该页面可以被搜索到
 showbreadcrumbs: true #顶部显示当前路径
+ShowWordCounts: true #显示字数统计
 mermaid: true
 cover:
     image: ""
@@ -124,7 +125,7 @@ prioritiedUrlTitleDiscover是我们的策略类，同时也是组装责任链的
 
 对业界广泛流行的解决方案做了横向调研，主要包括Future、CompletableFuture注2、RxJava、Reactor。它们的特性对比如下：
 
-![image-20241228165328356](https://cdn.nlark.com/yuque/0/2025/webp/29594572/1737266472187-b9f2d4f6-a9c9-460b-8ef5-37f4da5c573b.webp)
+![image-20241228165328356](https://mmbiz.qpic.cn/mmbiz_png/hEx03cFgUsUic04lXBqeDLp2jicjlZ65HicBSRaXlNlSWTUAib414cSbI5nxoo6Hj2xMM9fm3sOLQRypQQAjHRBm1g/640?wx_fmt=png&tp=webp&wxfrom=10005&wx_lazy=1&wx_co=1)
 
 - **可组合**：可以将多个依赖操作通过不同的方式进行编排，例如CompletableFuture提供thenCompose、thenCombine等各种then开头的方法，这些方法就是对“可组合”特性的支持。
 - **操作融合**：将数据流中使用的多个操作符以某种方式结合起来，进而降低开销（时间、内存）。
