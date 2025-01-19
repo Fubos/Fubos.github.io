@@ -35,4 +35,4 @@ cover:
     relative: false
 ---
 
-test
+Welcome to My Blog.

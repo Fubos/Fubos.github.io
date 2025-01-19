@@ -62,6 +62,12 @@ languages:
             name: 🏖 Life
             url: /posts/life
             weight: 5
+          
+          - identifier: photos
+            name: 🖼️ Photos 
+            url: /posts/photos
+            weight: 6
+
 
           - identifier: archives
             name: ⏱Timeline
@@ -100,7 +106,7 @@ params:
     # profileMode:
     homeInfoParams:
         enabled: true
-        title: Feeling, Observing, Recording, Expressing
+        title: Feeling, Observing, Recording, Expressing...
         # subtitle: "👏🏼welcome to my blog</br>👇联系方式"
         imageUrl: "img/logo.png"
         imageTitle:
@@ -124,15 +130,20 @@ params:
     ShowPostNavLinks: true
     ShowBreadCrumbs: true
     ShowCodeCopyButtons: true
+    
     hideFooter: false # 隐藏页脚
-    ShowWordCounts: true
+    ShowWordCount: true # 展示字数
+
     VisitCount: true
 
     ShowLastMod: true #显示文章更新时间
 
     ShowToc: true # 显示目录
     TocOpen: true # 自动展开目录
-
+    
+    disableScrollToTop: false
+    usefancyapp: true
+    summary: true
     comments: true
     busuanzi:
         enable: true
