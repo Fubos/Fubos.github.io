@@ -44,10 +44,25 @@ languages:
             name: 🏠Home
             url: /
             weight: 2
-          - identifier: posts
-            name: 📚Posts
-            url: /posts
+          # - identifier: posts
+          #   name: 📚Posts
+          #   url: /posts
+          #   weight: 3
+
+          - identifier: tech
+            name: 👨🏻‍💻 Tech
+            url: /posts/tech
             weight: 3
+
+          - identifier: read
+            name: 📕 Read
+            url: /posts/read
+            weight: 4
+          - identifier: life
+            name: 🏖 Life
+            url: /posts/life
+            weight: 5
+
           - identifier: archives
             name: ⏱Timeline
             url: /archives
@@ -56,6 +71,7 @@ languages:
           #   name: 🧩分类
           #   url: categories
           #   weight: 30
+
           - identifier: tags
             name: 🔖Tag
             url: /tags

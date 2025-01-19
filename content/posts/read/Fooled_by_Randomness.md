@@ -1,5 +1,5 @@
 ---
-title: "[Notes]塔勒布四部曲-Part1-《随机漫步的傻瓜》-Fooled_by_Randomness"
+title: "[Notes]塔勒布四部曲-Part1-《随机漫步的傻瓜》"
 date: 2025-01-18T21:02:55+08:00
 lastmod: 2025-01-18T21:02:55+08:00
 author: ["Fubos"]
