@@ -4,7 +4,7 @@
 </div>
 
 <div class="page-photos">
-  {{ $photoDirs := readDir "./static/photos" | sort}}  <!-- 读取 photos 目录中的所有文件夹 -->
+  {{ $photoDirs := readDir "./static/photos"}}  <!-- 读取 photos 目录中的所有文件夹 -->
 
   {{ range $dir := $photoDirs }}
     {{ if .IsDir }} <!-- 确保只处理目录 -->
