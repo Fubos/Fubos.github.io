@@ -29,7 +29,7 @@
             <a data-fancybox="gallery" href="{{ printf "/photos/%s/%s" $dirName .Name }}" data-caption="{{ .Name }}">
               <img src="{{ printf "/photos/%s/%s" $dirName .Name }}" alt="{{ .Name }}" />
             </a>
-            <figcaption>{{ .Name | replaceRE "(.*)[.].*" "$1" }}</figcaption>
+            <!-- <figcaption>{{ .Name | replaceRE "(.*)[.].*" "$1" }}</figcaption> -->
           </figure>
         {{ end }}
       </div>
