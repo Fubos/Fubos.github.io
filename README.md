@@ -72,8 +72,9 @@
 ## 目录侧边展示
 参考 https://blog.csdn.net/Xuyiming564445/article/details/122011603
 
+## 搭建链接参考
 
-具体搭建细节参考如下,感谢搭建过程中参考过的链接：
+其他具体搭建细节参考如下,感谢搭建过程中参考过的链接：
 > [1] https://github.com/adityatelange/hugo-PaperMod/
 
 > [2] https://zhuanlan.zhihu.com/p/422859066?utm_campaign=shareopn&utm_medium=social&utm_psn=1853241839257276416&utm_source=wechat_session&utm_id=0
