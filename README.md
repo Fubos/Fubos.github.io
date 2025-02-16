@@ -66,7 +66,7 @@
 {{< /toggle >}}
 
 ```
-实际效果查看主页中具体文章内容。
+实际效果查看主页中[具体文章内容](https://blog.fun-x.top/posts/tech/websocket-connection-management/)。
 
 
 ## 目录侧边展示
