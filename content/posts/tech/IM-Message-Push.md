@@ -43,10 +43,10 @@ cover:
 
 在下图中，我们考虑了几个重要的方面，并对相关场景进行模拟，给出初步的解决方案。
 
-![IM系统设计](/posts_imgs/IM_struct.png)
+![IM系统设计](/posts_imgs/IM-struct.png)
 
 对于一个千万级的消息系统，任何一个小功能，都可能成为性能瓶颈，都需要复杂的设计去支撑。在我们的项目中，由于是web项目，在一些细节实现方面和客户端IM有所不同。下图为具体的流程实现：
-![IM具体流程图](/posts_imgs/IM_flow.png)
+![IM具体流程图](/posts_imgs/IM-flow.png)
 
 其中，各个服务的功能如下：
 
